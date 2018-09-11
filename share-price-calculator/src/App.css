@@ -1,0 +1,43 @@
+.App {
+  padding: 1rem;
+}
+
+.App-title {
+  text-align: center;
+}
+
+.App-intro {
+  text-align: center;
+}
+
+.Section {
+  margin-bottom: 4rem;
+  padding: 1rem;
+}
+
+.ui.form {
+  background-color: lightblue;
+  max-width: 60rem;
+  margin: 0 auto 4rem;
+}
+
+.fields {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.fields > .field {
+  width: 48%;
+  min-width: 15rem;
+}
+
+.ui.input {
+  max-width: 5rem;
+  margin: 1rem 0;
+}
+
+.emphasize {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
