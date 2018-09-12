@@ -1,5 +1,7 @@
 .App {
   padding: 1rem;
+  max-width: 75rem;
+  margin: 0 auto;
 }
 
 .App-title {
@@ -17,8 +19,8 @@
 
 .ui.form {
   background-color: lightblue;
-  max-width: 60rem;
-  margin: 0 auto 4rem;
+  max-width: 70rem;
+  margin-bottom: 4rem;
 }
 
 .fields {
