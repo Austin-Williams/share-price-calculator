@@ -152,7 +152,10 @@ class App extends Component {
             of a Yes share will not equal P[Yes]. The same can be said for the
             price/probability of No. This tool takes into consideration the way
             Augur pays out when the market resolves Invalid, and computes the
-            breakeven price for Yes and No shares.
+            breakeven price for Yes and No shares. For more information, see the{" "}
+            <a href="https://github.com/Austin-Williams/share-price-calculator">
+              readme
+            </a>.
           </p>
         </div>
 
