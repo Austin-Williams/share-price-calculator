@@ -14,7 +14,7 @@ Let S<sub>y</sub> and S<sub>n</sub> be the number of shares of Yes and No (respe
 
 Let P<sub>y</sub>, P<sub>n</sub>, P<sub>i</sub> be the probabilities that the market will resolve to Yes, No, and Invalid (respectively).
 
-Then the expected value of the trader's shares are given by:
+Then the expected value of the trader's position is given by:
 
 P<sub>y</sub>S<sub>y</sub> + P<sub>n</sub>S<sub>n</sub> + P<sub>i</sub>(0.5S<sub>y</sub> + 0.5S<sub>n</sub>)
 
@@ -22,4 +22,6 @@ This can be simplified to:
 
 (P<sub>y</sub> + 0.5P<sub>i</sub>)S<sub>y</sub> + (P<sub>n</sub> + 0.5P<sub>i</sub>)S<sub>n</sub>
 
-It follows that the breakeven price of shares of Yes is given by P<sub>y</sub> + 0.5P<sub>i</sub>, while the breakeven price of shares of No is given by P<sub>n</sub> + 0.5P<sub>i</sub>.
+It follows that the equilibrium price of Yes shares is given by P<sub>y</sub> + 0.5P<sub>i</sub>, while the equilibrium price of No shares is given by P<sub>n</sub> + 0.5P<sub>i</sub>. In other words, if there is any positive probability that the market will resolve as Invalid, then the price of Yes shares and No shares should both be _greater than_ their respective probabilities.
+
+This tool is designed to help calculate the equilibrium price of Yes and No shares (under this system where Invalid pays out 50/50 to Yes/No) given a user's assumptions about the probabilities of the market resolving as Yes, No, and Invalid.
