@@ -7,12 +7,12 @@ class App extends Component {
     super();
 
     this.state = {
-      probInvalid: 25,
-      probValid: 75,
-      probYesGivenValid: 50,
-      probNoGivenValid: 50,
-      probYes: 37.5,
-      probNo: 37.5
+      probInvalid: 10,
+      probValid: 90,
+      probYesGivenValid: 20,
+      probNoGivenValid: 80,
+      probYes: 18,
+      probNo: 72
     };
 
     this.changeProbInvalid = this.changeProbInvalid.bind(this);
