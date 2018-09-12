@@ -16,10 +16,10 @@ Let P<sub>y</sub>, P<sub>n</sub>, P<sub>i</sub> be the probabilities that the ma
 
 Then the expected value of the trader's shares are given by:
 
-P<sub>y</sub>S<sub>y</sub> + P<sub>n</sub>S<sub>n</sub> + P<sub>i</sub>(0.5S<sub>y</sub> + S<sub>n</sub>)
+P<sub>y</sub>S<sub>y</sub> + P<sub>n</sub>S<sub>n</sub> + P<sub>i</sub>(0.5S<sub>y</sub> + 0.5S<sub>n</sub>)
 
 This can be simplified to:
 
 (P<sub>y</sub> + 0.5P<sub>i</sub>)S<sub>y</sub> + (P<sub>n</sub> + 0.5P<sub>i</sub>)S<sub>n</sub>
 
-It follows that the breakeven price of shares of Yes is given by P<sub>y</sub> + 0.5P<sub>i</sub>, while the breakeven price of Shares of No is given by P<sub>n</sub> + 0.5P<sub>i</sub>.
+It follows that the breakeven price of shares of Yes is given by P<sub>y</sub> + 0.5P<sub>i</sub>, while the breakeven price of shares of No is given by P<sub>n</sub> + 0.5P<sub>i</sub>.
