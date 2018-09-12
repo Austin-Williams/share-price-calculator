@@ -2,9 +2,9 @@
 
 Infers breakeven share prices of Yes/No Augur markets from user assumptions.
 
-Live version can be seen [here](https://musing-jennings-d2c811.netlify.com/).
+**Hosted version can be seen [here](https://musing-jennings-d2c811.netlify.com/).**
 
-### Background
+## Background
 
 Augur (v1) handles Invalid markets by giving each outcome share an equal portion of the escrowed ETH. For example, if a Yes/No market resolves as Invalid, then each share of Yes will receive a 0.5 ETH, and each share of No will receive 0.5 ETH.
 
