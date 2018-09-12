@@ -144,7 +144,7 @@ class App extends Component {
             </b>
             <br />
             In most common prediction markets it is the case that "price =
-            probability". However, the current veriosn of Augur (as of Spetember
+            probability". However, the current version of Augur (as of Spetember
             2018) has a special property: it will pay out 0.5 ETH for both Yes
             and No shares in the event that a Yes/No market resolves as Invalid.
             This means that the classic "price = probability" theorem doesn't
@@ -163,6 +163,11 @@ class App extends Component {
             your own risk.
           </p>
         </div>
+        <footer className="Section">
+          <a href="https://github.com/Austin-Williams/share-price-calculator">
+            <img className="ghimg" src="./gh.png" />
+          </a>
+        </footer>
       </div>
     );
   }
