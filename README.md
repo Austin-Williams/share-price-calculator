@@ -12,7 +12,7 @@ This has important implications for traders trying to value market shares, becau
 
 Let S<sub>y</sub> and S<sub>n</sub> be the number of shares of Yes and No (respectively) held by a trader in a Yes/No market.
 
-Let P<sub>y</sub>, P<sub>n</sub>, P<sub>i</sub> be the probabilities that the market will resolve to Yes, No, and Invalid (respectively).
+Let P<sub>y</sub>, P<sub>n</sub>, P<sub>i</sub> be the probabilities that the market will resolve to Yes, No, and Invalid (respectively), so that P<sub>y</sub> + P<sub>n</sub> + P<sub>i</sub> = 1.
 
 Then the expected value of the trader's position is given by:
 
